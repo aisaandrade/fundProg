@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="G4Flex"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-04 12:24:21 "/>
+        <attribute name="created" value="RzRGbGV4O0RFU0tUT1AtSE81MzdTRjsyMDIxLTExLTA0OyIxMjoxNzowNSAiOzI3NTA="/>
+        <attribute name="edited" value="RzRGbGV4O0RFU0tUT1AtSE81MzdTRjsyMDIxLTExLTA0OyIxMjoyNDoyMSAiOzE7Mjg1NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantiaSobrando" type="Real" array="False" size=""/>
+            <input variable="quantiaSobrando"/>
+            <if expression="quantiaSobrando&gt;=30">
+                <then>
+                    <output expression="&quot;V&#225; ao cinema&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Fique em casa vendo tv&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
