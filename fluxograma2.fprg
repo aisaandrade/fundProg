@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="G4Flex"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-04 12:43:50 "/>
+        <attribute name="created" value="RzRGbGV4O0RFU0tUT1AtSE81MzdTRjsyMDIxLTExLTA0OyIxMjoyNjowMyAiOzI3NDg="/>
+        <attribute name="edited" value="RzRGbGV4O0RFU0tUT1AtSE81MzdTRjsyMDIxLTExLTA0OyIxMjo0Mzo1MCAiOzE7Mjg1Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantidade" type="Real" array="False" size=""/>
+            <assign variable="quantidade" expression="0"/>
+            <for variable="quantidade" start="1" end="5" direction="inc" step="1">
+                <declare name="num" type="Real" array="False" size=""/>
+                <input variable="num"/>
+                <if expression="num&gt;0">
+                    <then>
+                        <output expression="num &amp; &quot; &#233; positivo&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
